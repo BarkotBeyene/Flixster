@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
                 } catch (e: JSONException){
                     Log.e(TAG, "Encountered exception $e")
                 }
-
             }
         })
     }
